@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" """
+"""test for amenity"""
 from tests.test_models.test_base_model import test_basemodel
 from models.amenity import Amenity
 from models.base_model import BaseModel
@@ -10,6 +10,9 @@ from os import getenv
 import pycodestyle
 import inspect
 import unittest
+import pep8
+import os
+
 storage_t = getenv("HBNB_TYPE_STORAGE")
 
 

@@ -17,4 +17,6 @@ def hello_hbnb():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0")
+    # starts a Flask web application server
+    # listening on 0.0.0.0, port 5000
+    app.run(host="0.0.0.0", port=5000)
